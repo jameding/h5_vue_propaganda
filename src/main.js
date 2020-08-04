@@ -28,7 +28,7 @@ const config = {
 		clickmap: 'default',
 		collect_url: true
 	},
-	show_log: process.env.VUE_APP_ENV ==  false
+	show_log: true
 };
 Vue.use(vueSensors, config);
 
