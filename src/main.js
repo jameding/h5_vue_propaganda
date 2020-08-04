@@ -40,5 +40,9 @@ new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  mounted() {
+		// 可以开启页面访问统计
+		this.$sa.quick('autoTrack');
+	}
 })
